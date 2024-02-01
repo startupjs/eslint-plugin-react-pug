@@ -1,6 +1,9 @@
 {
-  "name": "eslint-plugin-react-pug",
+  "name": "@startupjs/eslint-plugin-react-pug",
   "version": "0.8.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Add supporting of pugjs with react",
   "repository": "ezhlobo/eslint-plugin-react-pug",
   "license": "MIT",
@@ -30,8 +33,8 @@
     "@babel/traverse": "^7.4.5",
     "common-prefix": "^1.1.0",
     "eslint-plugin-react": "*",
-    "pug-lexer": "^4.1.0",
-    "pug-lint": "^2.5.0",
+    "@startupjs/pug-lexer": "^4.1.0-1",
+    "@startupjs/pug-lint": "^2.7.0-0",
     "pug-uses-variables": "^3.0.1"
   },
   "devDependencies": {
